@@ -1,0 +1,21 @@
+note over browser: 
+Page is fully loaded
+User types text in form field, clicks submit
+Browser then handles form data using js
+end note
+note over browser:
+browser saves form content to variable
+browser clears form
+adds variable to notes array
+notes then gets redrawn based on new array
+then browser sends post request with variable value
+end note
+browser->server: HTTP POST https://fullstack-exampleapp.herokuapp.com/new_note_spa
+note over server:
+Server processes POST request and adds user data to data.json
+Then server sends back status code 201 created with json data
+end note
+server-->browser: 201 Created {"message":"note created"}
+note over browser:
+browser handles 201 status code and logs message to console
+end note
