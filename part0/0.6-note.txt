@@ -4,7 +4,7 @@ User types text in form field, clicks submit
 Browser then handles form data using js
 end note
 note over browser:
-browser saves form content to variable
+Browser saves form content to variable
 browser clears form
 adds variable to notes array
 notes then gets redrawn based on new array

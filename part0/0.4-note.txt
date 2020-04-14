@@ -16,7 +16,7 @@ server-->browser: main.css
 browser->server: HTTP GET https://fullstack-exampleapp.herokuapp.com/main.js
 server-->browser: main.js
 note over browser:
-browser parses js code and does xhttp GET request to load data.json
+Browser parses js code and does xhttp GET request to load data.json
 end note
 browser->server: HTTP GET https://fullstack-exampleapp.herokuapp.com/data.json
 server-->browser: [{ content: "HTML is easy", date: "2019-05-23" }, ...]
